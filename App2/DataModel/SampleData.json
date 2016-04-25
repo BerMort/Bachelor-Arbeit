@@ -1,0 +1,314 @@
+{
+"Groups": [
+{
+"UniqueId": "Find-Object",
+"Title": "Find Objects",
+"Subtitle": "Information about banks and customers\n",
+"ImagePath": "Assets/tool.png",
+"Description": "Here we place functions to find banks by BIN and Name and find customer by PNR and Name",
+"Items": [
+{
+"UniqueId": "Find-Object-Bank",
+"Title": "Find Bank",
+"Subtitle": "by BIN or Name",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Make request to Database to receive as result table with information about banks. In request we could send BIN (4 and 6 digits) or Name (English, Russian)",
+"Content": "page 1"
+},
+{
+"UniqueId": "Find-Object-Customer",
+"Title": "Find Customer",
+"Subtitle": "by Name or Order Number",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "Make request to Database to receive as result table with information about customer. In request we could send Name of customer or Number of order",
+"Content": "page 1"
+},
+{
+"UniqueId": "Find-Object-Passenger",
+"Title": "Find Passenger",
+"Subtitle": "by PNR or E-Mail",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Make request to Database to receive as result table with information about banks. In request we could send PNR or E-Mail",
+"Content": "page 1"
+}
+]
+},
+{
+"UniqueId": "Finance-Reports",
+"Title": "Finance Reports",
+"Subtitle": "Information about finance turnover\n",
+"ImagePath": "Assets/man.png",
+"Description": "Here we place reports about our financial statement splitted by groups (banks, status, time period)",
+"Items": [
+{
+"UniqueId": "Finance-Reports-Top-Banks",
+"Title": "Top Banks",
+"Subtitle": "",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "Turnover for selected period focused on bank services usage",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-Top-GDS",
+"Title": "Top GDS",
+"Subtitle": "",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Turnover for selected period focused on GDS usage",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-Top-Clearing-Center",
+"Title": "Top Clearing Center",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on Clearing Center (GateLine, eGO) services usage",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-Top-Airlines",
+"Title": "Top Airlines",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on Airlines usage",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-By-Months",
+"Title": "By Months",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on all parameters with status 'sucess",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-Failed",
+"Title": "Failed",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on all parameters with status 'failed",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-Refunded",
+"Title": "Refunded",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on all parameters with status 'refund",
+"Content": "page 1"
+},
+{
+"UniqueId": "Finance-Reports-General",
+"Title": "General",
+"Subtitle": "",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Turnover for selected period focused on all parameters",
+"Content": "page 1"
+}
+]
+},
+{
+"UniqueId": "Convert-Me",
+"Title": "Convert Me",
+"Subtitle": "Convertation XML, CSV <-> XLSX\n",
+"ImagePath": "Assets/arrow.png",
+"Description": "Here we place instruments to make convertation between XML, LOG, CSV to EXCEL",
+"Items": [
+{
+"UniqueId": "Convert-Me-Log-to-CSV",
+"Title": "Log <-> CSV",
+"Subtitle": "Convert log files in CSV format.\nSeparate symbol is ','",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Convert log files to CSV format and back",
+"Content": "page 1"
+},
+{
+"UniqueId": "Convert-Me-Log-to-Excel",
+"Title": "Log <-> Excel",
+"Subtitle": "Convert log files to Excel format",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Convert log files to Excel format and back",
+"Content": "page 1"
+},
+{
+"UniqueId": "Convert-Me-XML-to-Excel",
+"Title": "XML -> Excel",
+"Subtitle": "Convert XML files to Excel",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Convert XML files to Excel format and back",
+"Content": "page 1"
+},
+{
+"UniqueId": "Convert-Me-Excel-to-XML",
+"Title": "Excel -> XML",
+"Subtitle": "Convert Excel files to XML",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "Convert Excel files to XML",
+"Content": "page 1"
+}
+]
+},
+{
+"UniqueId": "Price-Analyse",
+"Title": "Price Analyse",
+"Subtitle": "Price compare with\nagents and competitors",
+"ImagePath": "Assets/business.png",
+"Description": "Here we place application to check prices from our agents and competitors with us",
+"Items": [
+{
+"UniqueId": "Price-Analyse-Make-Search",
+"Title": "Make Search",
+"Subtitle": "Make search of airline content\nin different services",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "There are a form that duplicates search form in popular websites with airline content sales. Also there are some config data that accumulate information about parameters of search",
+"Content": "page 1"
+},
+{
+"UniqueId": "Price-Analyse-Make-Common-Report",
+"Title": "Common Report",
+"Subtitle": "Report according market\nprice investigation",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "After completing research we consolidate it in report form",
+"Content": "page 1"
+},
+{
+"UniqueId": "Price-Analyse-Price-Trends",
+"Title": "Price Trends",
+"Subtitle": "Investigate of price changes\nduring given period",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Here we make report that show us how price changed during given period by airline and website",
+"Content": "page 1"
+},
+{
+"UniqueId": "Price-Analyse-Our-Search",
+"Title": "Our Search",
+"Subtitle": "Form that helps to investigate\nour prices for Sales Department",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "In this option we make a form where we help Sales Department make report about our advantages in prices",
+"Content": "page 1"
+}
+]
+},
+{
+"UniqueId": "B2B-reports",
+"Title": "B2B Reports",
+"Subtitle": "System activities analysing\n",
+"ImagePath": "Assets/line.png",
+"Description": "Here we place reports based on B2B reports loaded from IDEA system",
+"Items": [
+{
+"UniqueId": "B2B-reports-Success",
+"Title": "Success",
+"Subtitle": "All succesfull bookings",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "In this page we show all succesfull bookings in given period",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Failed",
+"Title": "Failed",
+"Subtitle": "All failed bookings",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "In this page we show all failed bookings in given period",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Refund",
+"Title": "Refund",
+"Subtitle": "All bookings on refund",
+"ImagePath": "Assets/LightGray.png",
+"Description": "In this page we show all refunded bookings in given period",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Error-Codes",
+"Title": "Error Codes",
+"Subtitle": "Library of Error Codes\nand their descriptions",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "In this page we show Error Codes that we have in our systems",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Master-List",
+"Title": "Airline Master List",
+"Subtitle": "List of available airlines",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "In this page we show all available airlines with history of changes",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Duplicates",
+"Title": "Duplicates",
+"Subtitle": "List of duplicate bookings",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "In this option we check booking during given period on dublicates",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-Search-TimeOut",
+"Title": "Search TimeOut",
+"Subtitle": "All bookings that declined\nunder timeout reason",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "In this option we look all bookings with overlimited timeout",
+"Content": "page 1"
+},
+{
+"UniqueId": "B2B-reports-General-Consolidated",
+"Title": "General Consolidated",
+"Subtitle": "Full report with filters",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "Here we make consolidated report with filters",
+"Content": "page 1"
+}
+]
+},
+{
+"UniqueId": "Config",
+"Title": "Configuration",
+"Subtitle": "Application configuration\n",
+"ImagePath": "Assets/cogwheel.png",
+"Description": "Here we save main configurations for our applications and its functions",
+"Items": [
+{
+"UniqueId": "Config-Bank-DB-Refresh",
+"Title": "Refresh Database with Bank information",
+"Subtitle": "Send command to refresh data\nabout banks from trusted sources",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Since information about banks changes periodically, we need manually refresh info there",
+"Content": "page 1"
+},
+{
+"UniqueId": "Config-Connections",
+"Title": "Connection Settings",
+"Subtitle": "Parameters that influenced on connection",
+"ImagePath": "Assets/MediumGray.png",
+"Description": "Settings that influence on connection of application with open sources (delay, speed, resources, proxy, conn_string to database",
+"Content": "page 1"
+},
+{
+"UniqueId": "Config-Search-Engine",
+"Title": "Search Engine parameters",
+"Subtitle": "List of requirements for search\nfunction in agents and competitors\nwebsites",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Here we set parameters for search module",
+"Content": "page 1"
+},
+{
+"UniqueId": "Config-Website-Targeting",
+"Title": "Websites Parse Configurations",
+"Subtitle": "Website Parse Configuration",
+"ImagePath": "Assets/DarkGray.png",
+"Description": "Here we save tags and ID to recognise information from websites that we investigate",
+"Content": "page 1"
+},
+{
+"UniqueId": "Config-Schemas-Storage",
+"Title": "Schemas Control",
+"Subtitle": "Schemas",
+"ImagePath": "Assets/LightGray.png",
+"Description": "Here we consolidate information about all schemas saved in applications to further manage it in functions realisations",
+"Content": "page 1"
+}
+]
+}
+]
+}
